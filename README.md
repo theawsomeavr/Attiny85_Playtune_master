@@ -1,5 +1,5 @@
 # Attiny85_Playtune_master
-playtune library modified for the attiny85
+there is an some examples that you can use just by including the library in to your arduino IDE (this library only works on arduino IDE 1.6.4 or higher)
 this is a modified version of the menorah of LenShustek (the same creator of playtune) https://github.com/LenShustek/ATtiny-playtune .
 it has been modified by David Rubio https://github.com/theawsomeavr https://www.youtube.com/channel/UCLe_nq4scjhtKgyudTweZMQ
 to be compatible with the popular attiny85 in 08/09/2018.

@@ -293,7 +293,6 @@ ISR(TIMER0_COMPA_vect) { //******* 8-bit timer: 50 microsecond interrupts
   dospeaker(2);
    // Depends on NUM_CHANS==4
 }
-
 ISR(TIMER1_COMPA_vect) { //******* 16-bit timer: millisecond interrupts
 
     // decrement score wait counter

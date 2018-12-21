@@ -34,7 +34,7 @@ class Attiny85Playtune
 public:
  void tune_initchan (byte pin,byte pin1,byte pin2);			// assign a timer to an output pin
  void tune_playscore (const byte *score);	// start playing a polyphonic score
- volatile static boolean tune_playing;	// is the score still playing?
+ volatile static bool tune_playing;	// is the score still playing?
  void tune_stopscore (void);			// stop playing the score
  void begin (void);			// starts timers
  void tune_delay (unsigned msec);		// delay in milliseconds

@@ -60,8 +60,8 @@ volatile unsigned int delaywait_interrupt_count;
 
 // variables for music-playing
 
-volatile byte *score_start;
-volatile byte *score_cursor;
+volatile const byte *score_start;
+volatile const byte *score_cursor;
 volatile bool Attiny85Playtune::tune_playing;
 
 volatile long accumulator [NUM_CHANS];
